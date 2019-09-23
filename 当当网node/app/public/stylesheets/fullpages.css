@@ -1,0 +1,991 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .section .part{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+} */
+.one {
+    position: relative;
+    width: 1280px;
+    height: 850px;
+    margin: 0 auto;
+}
+
+.section .one {
+    background: url(../images/bg0.jpg) 50% no-repeat;
+}
+
+.section .two {
+    background: url(../images/bg1.jpg) 50% no-repeat;
+}
+
+.section .three {
+    background: url(../images/bg2.jpg) 50% no-repeat;
+}
+
+.section .four {
+    background: url(../images/bg3.jpg) 50% no-repeat;
+}
+
+.section .five {
+    background: url(../images/bg5.jpg) 50% no-repeat;
+}
+
+.one .shi1 {
+    left: 469px;
+    top: 245px;
+    position: absolute;
+    z-index: 10;
+}
+
+.one .shi2 {
+    left: 407px;
+    top: 295px;
+    position: absolute;
+}
+
+.one .shi3 {
+    left: 401px;
+    top: 341px;
+    position: absolute;
+    z-index: 10;
+}
+
+.one .shi4 {
+    left: 418px;
+    top: 441px;
+    position: absolute;
+
+}
+
+.one .ji1 {
+    left: 693px;
+    top: 111px;
+    position: absolute;
+}
+
+.one .ji2 {
+    left: 668px;
+    top: 213px;
+    position: absolute;
+}
+
+.one .ji3 {
+    left: 776px;
+    top: 212px;
+    position: absolute;
+}
+
+.one .year2 {
+    left: 700px;
+    top: 487px;
+    position: absolute;
+}
+
+.one .year0 {
+    left: 760px;
+    top: 508px;
+    position: absolute;
+}
+
+.one .year1 {
+    left: 820px;
+    top: 490px;
+    position: absolute;
+}
+
+.one .year3 {
+    left: 860px;
+    top: 493px;
+    position: absolute;
+}
+
+.one .slogen {
+    left: 482px;
+    top: 594px;
+    position: absolute;
+}
+
+.two {
+    position: relative;
+    width: 980px;
+    height: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.two .boxone {
+    width: 181px;
+    height: 365px;
+    position: absolute;
+    top: -100%;
+}
+
+.two .boxtwo {
+    width: 626px;
+    height: 317px;
+    position: absolute;
+    right: -100%;
+}
+
+.two .boxthree {
+    width: 686px;
+    height: 215px;
+    position: absolute;
+    left: -100%;
+}
+
+.two .boxfour {
+    width: 686px;
+    height: 215px;
+    position: absolute;
+    bottom: -650px;
+}
+
+.two .st1 {
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 0px;
+    top: 27px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 0 no-repeat
+}
+
+.two .st2 {
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 0px;
+    top: 57px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -59px no-repeat;
+}
+
+.two .st3 {
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 0px;
+    top: 87px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -59px no-repeat;
+}
+
+.two .st4 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 0px;
+    top: 108px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -104px no-repeat;
+}
+
+.two .st5 {
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 554px;
+    top: 136px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -195px no-repeat;
+}
+
+.two .st6 {
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 554px;
+    top: 166px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -267px no-repeat;
+}
+
+.two .st7 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 554px;
+    top: 183px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -244px no-repeat;
+}
+
+.two .st8 {
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 554px;
+    top: 256px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-keji_3f60772.png) 0 -267px no-repeat;
+}
+
+.two .st9 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 290px;
+    top: 366px;
+    position: absolute;
+    padding-right: 40px;
+    background: url(../images/num-keji_3f60772.png) 70px -350px no-repeat;
+}
+
+.two .st10 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 290px;
+    top: 396px;
+    position: absolute;
+    padding-right: 40px;
+    background: url(../images/num-keji_3f60772.png) 71px -432px no-repeat;
+}
+
+.two .st11 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 224px;
+    top: 426px;
+    position: absolute;
+    padding-right: 40px;
+    background: url(../images/num-keji_3f60772.png) 138px -504px no-repeat;
+}
+
+.two .st12 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 30px;
+    top: 463px;
+    position: absolute;
+    padding-right: 40px;
+    background: url(../images/num-keji_3f60772.png) 332px -481px no-repeat;
+}
+
+.two .st13 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 761px;
+    top: 526px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-keji_3f60772.png) 0 -573px no-repeat;
+}
+
+.two .st14 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 761px;
+    top: 543px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-keji_3f60772.png) 0 -626px no-repeat;
+}
+
+.two .st15 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 761px;
+    top: 607px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-keji_3f60772.png) 0 -646px no-repeat;
+}
+
+.two .st16 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 761px;
+    top: 642px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-keji_3f60772.png) 0 -646px no-repeat;
+}
+
+.two .st17 {
+
+    text-decoration: none;
+    color: #004b85;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 761px;
+    top: 676px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-keji_3f60772.png) 0 -732px no-repeat;
+}
+
+.two .stimg1 {
+    position: absolute;
+    left: 0;
+    top: 175px;
+}
+
+.two .stimg2 {
+    position: absolute;
+    left: 220px;
+    top: 22px;
+}
+
+.two .stimg3 {
+    position: absolute;
+    left: 413px;
+    top: 370px;
+}
+
+.two .stimg4 {
+    position: absolute;
+    left: 761px;
+    top: 370px;
+}
+
+.three {
+    position: relative;
+    width: 980px;
+    height: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.three .boxone {
+    width: 181px;
+    height: 365px;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+
+.three .boxtwo {
+    width: 626px;
+    height: 317px;
+    position: absolute;
+    left: 960px;
+}
+
+.three .boxthree {
+    width: 686px;
+    height: 215px;
+    position: absolute;
+    left: -100%;
+
+}
+
+.three .boxfour {
+    width: 686px;
+    height: 215px;
+    position: absolute;
+    bottom: -100%;
+}
+
+.three .sd1 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 90px;
+    top: 68px;
+    position: absolute;
+    padding-right: 37px;
+    background: url(../images/num-renwu_3294764.png) 55px 3px no-repeat
+}
+
+.three .sd2 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 90px;
+    top: 93px;
+    position: absolute;
+    padding-right: 37px;
+    background: url(../images/num-renwu_3294764.png) 55px -105px no-repeat
+}
+
+.three .sd3 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 0px;
+    top: 113px;
+    position: absolute;
+    padding-right: 37px;
+    background: url(../images/num-renwu_3294764.png) 145px -190px no-repeat
+}
+
+.three .sd4 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 235px;
+    top: 203px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-renwu_3294764.png) 0px -315px no-repeat
+}
+
+.three .sd5 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 235px;
+    top: 227px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-renwu_3294764.png) 0px -406px no-repeat
+}
+
+.three .sd6 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 235px;
+    top: 290px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-renwu_3294764.png) 0px -426px no-repeat
+}
+
+.three .sd7 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 100px;
+    top: 317px;
+    position: absolute;
+    padding-left: 37px;
+    background: url(../images/num-renwu_3294764.png) 0px -404px no-repeat
+}
+
+.three .sd8 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 149px;
+    top: 533px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -765px no-repeat
+}
+
+.three .sd9 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 149px;
+    top: 563px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -901px no-repeat
+}
+
+.three .sd10 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 149px;
+    top: 593px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -1045px no-repeat
+}
+
+.three .sd11 {
+    font-size: 48px;
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 786px;
+    top: 383px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -520px no-repeat
+}
+
+.three .sd12 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 786px;
+    top: 450px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -650px no-repeat
+}
+
+.three .sd13 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 786px;
+    top: 480px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -650px no-repeat
+}
+
+.three .sd14 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 786px;
+    top: 510px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -1187px no-repeat
+}
+
+.three .sd15 {
+    text-decoration: none;
+    color: #8a5e25;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 786px;
+    top: 540px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-renwu_3294764.png) 0px -1187px no-repeat
+}
+
+.three .sdimg1 {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+
+.three .sdimg2 {
+    position: absolute;
+    left: 600px;
+    top: 77px;
+}
+
+.three .sdimg3 {
+    position: absolute;
+    left: 280px;
+    top: 366px;
+}
+
+.three .sdimg4 {
+    position: absolute;
+    left: 149px;
+    top: 387px;
+}
+
+.four {
+    position: relative;
+    width: 970px;
+    height: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.four .sx1 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #535353;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 51px;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px 22px no-repeat
+}
+
+.four .sx2 {
+    text-decoration: none;
+    color: #535353;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 110px;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -118px no-repeat
+}
+
+.four .sx3 {
+    text-decoration: none;
+    color: #535353;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 140px;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -118px no-repeat
+}
+
+.four .sx4 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 228px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -597px no-repeat
+}
+
+.four .sx5 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 258px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -597px no-repeat
+}
+
+.four .sx6 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 288px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -1005px no-repeat
+}
+
+.four .sx7 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 340px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -725px no-repeat
+}
+
+.four .sx8 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 363px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -697px no-repeat
+}
+
+.four .sx9 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 450px;
+    top: 428px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -725px no-repeat
+}
+
+.four .sx10 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 162px;
+    top: 369px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -206px no-repeat
+}
+
+.four .sx11 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 162px;
+    top: 434px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -346px no-repeat
+}
+
+.four .sx12 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 162px;
+    top: 464px;
+    position: absolute;
+    padding-left: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 0px -473px no-repeat
+}
+
+.four .sx13 {
+    font-size: 46px;
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 15px;
+    top: 520px;
+    position: absolute;
+    padding-right: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 420px -859px no-repeat
+}
+
+.four .sx14 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 365px;
+    top: 585px;
+    position: absolute;
+    padding-right: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 70px -879px no-repeat
+}
+
+.four .sx15 {
+    text-decoration: none;
+    color: #535353;
+    display: inline-block;
+    white-space: nowrap;
+    left: 350px;
+    top: 612px;
+    position: absolute;
+    padding-right: 47px;
+    background: url(../images/num-shehui_e0faa81.png) 87px -879px no-repeat
+}
+
+.four .sximg1 {
+    position: absolute;
+    left: 156px;
+    top: 10px;
+}
+
+.four .sximg2 {
+    position: absolute;
+    left: 155px;
+    top: 186px;
+}
+
+.four .sximg3 {
+    position: absolute;
+    left: 675px;
+    top: 186px;
+}
+
+.four .sximg4 {
+    position: absolute;
+    left: 507px;
+    top: 494px;
+}
+
+.four .boxone {
+    width: 181px;
+    height: 365px;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+
+.four .boxtwo {
+    width: 626px;
+    height: 317px;
+    position: absolute;
+    left: 960px;
+}
+
+.four .boxthree {
+    width: 686px;
+    height: 215px;
+    position: absolute;
+    left: -100%;
+
+}
+
+.four .boxfour {
+    width: 686px;
+    height: 215px;
+    position: absolute;
+    bottom: -100%;
+}
+
+.five {
+    width: 880px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.five h2 {
+    margin-bottom: 50px;
+}
+
+.five .boxone {
+    height: 350px;
+    margin-top: 100px;
+    display: none;
+    /* position: absolute;
+    top: 20px;
+    left: 0; */
+
+
+}
+
+.five .boxone a img {
+    display: block;
+    width: 190px;
+    height: 76px;
+    float: left;
+    margin: 0 0 10px 28px;
+
+}
+
+/* .five .boxtwo {
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    z-index: 10;
+    display: none;
+
+
+}
+
+.five .boxtwo p {
+    line-height: 30px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+} */
+
+
+
+
+
+/* #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    color: #fff;
+    background-color: rgb(0, 116, 234);
+background: none;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    border-radius: 0;
+    width: 100px;
+    height: 38px;
+    background-color: #fff;
+    color: #0074EA;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fp-nav ul li, .fp-slidesNav ul li{
+    width: 100px;
+    height: 38px;
+    margin: 10px 0;
+} */

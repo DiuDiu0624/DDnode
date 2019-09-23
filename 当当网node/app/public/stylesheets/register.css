@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(212, 235, 240)
+}
+
+.line {
+    height: 38px;
+    background-color: #44A0B3;
+    line-height: 38px;
+
+}
+
+.line a {
+    display: block;
+    text-decoration: none;
+    float: right;
+    margin-right: 80px;
+    color: #A1CFD9;
+
+
+}
+.line a:hover{
+    color: #fff;
+}
+
+.line p {
+    color: #fff;
+    float: right;
+    margin-right: 80px;
+
+}
+.line span {
+    color: #A1CFD9;
+    float: right;
+    margin-right: 80px;
+    line-height: 38px;
+    cursor: pointer;
+
+
+}
+.line span:hover {
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+
+.top {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.top li {
+    width: 100px;
+    height: 35px;
+    border: 1px #666 solid;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.top li:hover {
+    background-color:#44A0B3;
+    color: white;
+}
+
+.top p {
+    float: left;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.bom {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    clear: both;
+}
+
+.bom li {
+    margin-bottom: 30px;
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 20px 200px 20px 200px;
+    box-sizing: border-box;
+    border-bottom: 1px #666 dashed;
+
+}
+
+.bom h3 {
+    padding-top: 15px;
+    line-height: 38px;
+}
+
+.bom p:nth-of-type(1) {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.bom p:nth-of-type(2) {
+    line-height: 24px;
+    display: inline-block;
+    color: #666;
+}
+
+.bom p:nth-of-type(3) {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.bom p:nth-of-type(4) {
+    margin-top: 10px;
+    line-height: 24px;
+    color: #333;
+}
+
+.bom p:nth-of-type(5) {
+    margin-top: 10px;
+    line-height: 24px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 100px;
+}
+
+.bom img {
+    float: left;
+    padding-right: 35px;
+}
+
+.bom a {
+    padding-bottom: 5px;
+    display: block;
+}
+
+.max{
+    text-align: center;
+    
+    margin: 0 auto;
+    margin-top: 45px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    position: relative;
+    height: 686px;
+    width: 360px;
+    overflow: hidden;
+}
+#Register-box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    perspective: 1000px;
+    position: relative;
+    height: 100%;
+    width: 360px;
+    margin: 0 auto;
+    min-height: 457px;
+}
+#Register-box .pic{
+      overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto -50px auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    padding: 10px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+#Register-box .pic img{
+    width: 100%;
+}
+.Register{
+    background-color: #fff;
+    -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    padding: 60px 25px 25px 25px;
+    text-align: left;
+    border-radius: 3px;
+    height: 480px;
+   
+   
+}
+.Register h3{
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+font-size: 22px;
+
+}
+.Register label{
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+}
+.Register input{
+    background-color: #F4F9FB;
+    color: rgba(68, 160, 179, .5);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 85%;
+    outline: 0;
+ 
+}
+ span{
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;;
+    color: red;
+    display: block;
+   visibility: visible;
+ 
+}
+#register{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 3px;
+    background-color: #44a0b3;
+   box-shadow:rgba(68, 160, 179, .5);
+    box-shadow: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.Register .textfoot{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(68, 160, 179, .5);
+}
+.Register .textfoot a{
+    margin-left: 15px;
+    color: #44a0b3;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(68, 160, 179, .5);
+    margin-top: -3px;
+    padding-bottom: 2px;
+}
+
+
+
+
+#Login-box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    perspective: 1000px;
+    position: relative;
+    height: 100%;
+    width: 360px;
+    margin: 0 auto;
+    min-height: 457px;
+}
+#Login-box .pic{
+      overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto -50px auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    padding: 10px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+#Login-box .pic img{
+    width: 100%;
+}
+.Login{
+    background-color: #fff;
+    -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    padding: 60px 25px 25px 25px;
+    text-align: left;
+    border-radius: 3px;
+    height: 441px;
+}
+.Login h3{
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+font-size: 22px;
+
+}
+.Login label{
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+}
+.Login label a{
+   float: right;
+   margin-right: 15px;
+    color: #44a0b3;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(68, 160, 179, .5);
+    margin-top: -3px;
+    padding-bottom: 2px;
+}
+.Login input{
+    background-color: #F4F9FB;
+    color: rgba(68, 160, 179, .5);
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 85%;
+    outline: 0;
+    margin-bottom: 8px;
+}
+#login{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #44a0b3;
+   box-shadow:rgba(68, 160, 179, .5);
+    box-shadow: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: 18px;
+}
+.Login .textfoot{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: rgba(68, 160, 179, .5);
+}
+.Login .textfoot a{
+    margin-left: 15px;
+    color: #44a0b3;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(68, 160, 179, .5);
+    margin-top: -3px;
+    padding-bottom: 2px;
+}
+
+
+
+
+#Forget-box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    perspective: 1000px;
+    position: relative;
+    height: 100%;
+    width: 360px;
+    margin: 0 auto;
+    min-height: 457px;
+}
+#Forget-box .pic{
+      overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto -50px auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    padding: 10px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+#Forget-box .pic img{
+    width: 100%;
+}
+.Forget{
+    background-color: #fff;
+    -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    padding: 60px 25px 25px 25px;
+    text-align: left;
+    border-radius: 3px;
+    height: 490px;
+}
+.Forget h3{
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+font-size: 22px;
+
+}
+.Forget label{
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+}
+.Forget label a{
+   float: right;
+   margin-right: 15px;
+    color: #44a0b3;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(68, 160, 179, .5);
+    margin-top: -3px;
+    padding-bottom: 2px;
+}
+.Forget input{
+    background-color: #F4F9FB;
+    color: rgba(68, 160, 179, .5);
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 85%;
+    outline: 0;
+    margin-bottom: 10px;
+}
+#forget{
+    display: block;
+    height: 35px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #44a0b3;
+   box-shadow:rgba(68, 160, 179, .5);
+    box-shadow: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+.Forget p{
+    color: red;
+    margin-bottom: 15px;
+}
+.Forget .textfoot{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(68, 160, 179, .5);
+}
+.Forget .textfoot a{
+    margin-left: 15px;
+    color: #44a0b3;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(68, 160, 179, .5);
+    margin-top: -3px;
+    padding-bottom: 2px;
+}
+#Check{
+    display: block;
+    width: 30%;
+    border: none;
+    color: #fff;
+    background-color: #44a0b3;
+    opacity: 0.6;
+    border-radius: 3px;
+   font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+
+}
+
+
+
+
+
+#Person-box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    perspective: 1000px;
+    position: relative;
+    height: 100%;
+    width: 360px;
+    margin: 0 auto;
+    min-height: 457px;
+}
+#Person-box .pic{
+      overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto -50px auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    padding: 10px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+#Person-box .pic img{
+    width: 100%;
+}
+.Person{
+    background-color: #fff;
+    -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    padding: 60px 25px 25px 25px;
+    text-align: left;
+    border-radius: 3px;
+    height: 380px;
+   
+   
+}
+.Person h3{
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+font-size: 22px;
+
+}
+.Person label{
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+    color: rgba(68, 160, 179, .5);
+    font-weight: 700;
+}
+.Person input{
+    background-color: #F4F9FB;
+    color: rgba(68, 160, 179, .5);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 85%;
+    outline: 0;
+ 
+}
+ span{
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;;
+    color: red;
+    display: block;
+   visibility: visible;
+ 
+}
+#btn{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 3px;
+    background-color: #44a0b3;
+   box-shadow:rgba(68, 160, 179, .5);
+    box-shadow: rgba(68, 160, 179, .5);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.Person .textfoot{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(68, 160, 179, .5);
+}
+.Person .textfoot a{
+    margin-left: 15px;
+    color: #44a0b3;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(68, 160, 179, .5);
+    margin-top: -3px;
+    padding-bottom: 2px;
+}

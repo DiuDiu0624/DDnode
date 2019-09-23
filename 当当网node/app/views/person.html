@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/stylesheets/register.css">
+    <script src="../public/javascripts/jquery.js"></script>
+    <script src="../public/javascripts/person.js"></script>
+    <style>
+        .Person p {
+            color: rgba(68, 160, 179, .5);
+            font-weight: 700;
+            font-size: 20px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="line">
+        <a href="./login.html">登录</a>
+        <a href="./register.html">注册</a>
+
+
+        <p></p>
+
+    </div>
+    <div class="max">
+
+        <div id="Person-box">
+            <div class="pic">
+                <img src="../public/images/kodinger.jpg" alt="">
+            </div>
+            <div class="Person">
+                <h3>信息修改</h3>
+                <label for="">姓名:</label>
+                <p></p></br>
+
+                <label for="">手机号码</label></br>
+                <input type="text" class="tel"><span></span>
+                <label for="">新密码</label></br>
+                <input type="password" class="pwd"><span></span>
+                <button id="btn">确 认 修 改</button>
+                <div class="textfoot">
+                    取消修改？<a href="./login.html">登录</a>
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>
